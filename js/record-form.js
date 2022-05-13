@@ -1,0 +1,1 @@
+var button = document.querySelector(".appointment-form .button");

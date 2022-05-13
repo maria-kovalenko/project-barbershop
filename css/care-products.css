@@ -1,0 +1,193 @@
+.care-ptoducts-columns {
+  display: flex;
+  margin-top: 38px;
+  margin-bottom: 75px;
+}
+
+.filter-column {
+  max-width: 167px;
+  margin-right: 73px;
+}
+
+.filter-column ul {
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  list-style: none;
+}
+
+.filter-column h2 {
+  font-size: 24px;
+  line-height: 30px;
+
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.filter-column li {
+  margin-top: 14px;
+}
+
+.checkbox {
+  position: relative;
+  padding-left: 22px;
+  cursor: pointer;
+}
+
+.checkbox:hover,
+.checkbox:focus {
+  color: #663d15;
+}
+
+.checkbox input[type="checkbox"] + .checkbox-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 17px;
+  height: 17px;
+
+  border: 2px solid #000;
+}
+
+.checkbox input[type="checkbox"]:checked + .checkbox-indicator::before,
+.checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+  content: "";
+
+  position: absolute;
+  top: 8px;
+  left: 1;
+
+  width: 15px;
+  height: 2px;
+
+  background-color: #000;
+}
+
+.checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+  transform: rotate(45deg);
+}
+
+.checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+  transform: rotate(-45deg);
+}
+
+.text {
+  margin-left: 22px;
+  vertical-align: middle;
+}
+
+.radio {
+  position: relative;
+  padding-left: 22px;
+  cursor: pointer;
+}
+
+.radio:hover,
+.radio:focus {
+  color: #663d15;
+}
+
+.radio input[type="radio"] + .radio-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 17px;
+  height: 17px;
+
+  border: 2px solid #000;
+  border-radius: 15px;
+}
+
+.radio input[type="radio"]:checked + .radio-indicator::before {
+  content: "";
+
+  position: absolute;
+  top: 4px;
+  left: 4px;
+
+  width: 9px;
+  height: 9px;
+  border-radius: 9px;
+  background-color: #000;
+}
+
+.foto-column {
+  /* position: relative; */
+  max-width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 220px;
+  height: 286px;
+
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 1, 1, 0.2);
+}
+
+.card img {
+  width: 220px;
+  height: 165px;
+}
+
+.card p {
+  padding: 0 17px;
+  line-height: 18px;
+
+  margin-top: 0;
+
+  text-transform: none;
+}
+
+.name-uppercase {
+  text-transform: uppercase;
+}
+
+.card:nth-child(3n) {
+  margin-right: 0;
+}
+
+.buy {
+  display: flex;
+  align-items: center;
+  width: 186px;
+
+  padding: 0 17px;
+}
+
+.buy p {
+  width: 109px;
+  padding: 13px 20px;
+  margin: 0;
+
+  text-align: center;
+
+  background-color: #e5e5e5;
+}
+
+.button-margin {
+  margin-right: 0;
+}
+
+.number {
+  margin-top: 45px;
+}
+
+.button-number {
+  padding: 0;
+  margin-right: 6px;
+
+  width: 43px;
+  height: 43px;
+}
+
+.button-number:hover {
+  background-color: #fff;
+  color: #000;
+}
